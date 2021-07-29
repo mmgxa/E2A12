@@ -36,13 +36,13 @@ def make_trg_mask(self, trg):
   return trg_mask.to(self.device)
 ```
 ### Training Log
-![Alt text](logs_b.png")
+![Alt text](logs_b.png)
 
 ### Plot of Loss/Perplexity vs. Epoch
-![Alt text](plots_b.png")
+![Alt text](plots_b.png)
 
 ### Sample Predictions
-![Alt text](samples_b.png")
+![Alt text](samples_b.png)
 
 ## Transformers - Einsum Implementation
 
@@ -51,13 +51,13 @@ def make_trg_mask(self, trg):
 The same code as shown in the class was implemented.
 
 ### Training Log
-![Alt text](logs_e.png")
+![Alt text](logs_e.png)
 
 ### Plot of Loss/Perplexity vs. Epoch
-![Alt text](plots_e.png")
+![Alt text](plots_e.png)
 
 ### Sample Predictions
-![Alt text](samples_e.png")
+![Alt text](samples_e.png)
 
 ## Transformers - PyTorch Implementation
 
@@ -66,13 +66,13 @@ The same code as shown in the class was implemented.
 PyTorch library has a built-in `nn.Transformer` Module.  It had lower number of parameters, and ran much faster (optimized code by PyTorch???). However, it performed worse than our implementations. Moreover, I was unable to train it for number of layers > 3, as the loss would just oscillate.
 
 ### Training Log
-![Alt text](logs_p.png")
+![Alt text](logs_p.png)
 
 ### Plot of Loss/Perplexity vs. Epoch
-![Alt text](plots_p.png")
+![Alt text](plots_p.png)
 
 ### Sample Predictions
-![Alt text](samples_p.png")
+![Alt text](samples_p.png)
 
 # Comparison of Results
 
